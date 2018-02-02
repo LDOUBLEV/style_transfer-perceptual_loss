@@ -9,8 +9,10 @@ python train.py -is_training=True -vgg_model='your vgg model path' -train_data_p
 ```
 forexample:
 ```
-python train.py -is_training=True  -vgg_model='your vgg model path' -train_data_path='/train2014' -style_data_path='img/wave.jpg' -style_w=100
+python train.py -is_training=True  -vgg_model='vgg16.ckpt' -train_data_path='/train2014' -style_data_path='img/wave.jpg' -style_w=100
 ```
+you can download the vgg16.ckpt model from the [url](http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz)
+
 
 note : you can change the degree of style transfer by changing style_w value, 
 and you can also modify the code to set the args papameter as default
@@ -33,4 +35,4 @@ python train.py -is_training=False  -test_data_path='dog.jpg'  -new_img_name='tr
 ![](https://github.com/LDOUBLEV/style_transfer-perceptual_loss/blob/master/scene-transfer.png)
 
 ## note
-if you find it is useful for you,please leave your star, thanks. =_=
+if you find it is useful for you, please leave your star, thanks. =_=
