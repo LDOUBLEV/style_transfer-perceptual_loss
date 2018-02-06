@@ -1,0 +1,4 @@
+model_checkpoint_path: "wave.ckpt"
+all_model_checkpoint_paths: "wave.ckpt"
+all_model_checkpoint_paths: "face.ckpt"
+all_model_checkpoint_paths: "star.ckpt"
