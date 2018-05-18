@@ -173,7 +173,7 @@ parser.add_argument('-is_training', help='train or test', type=bool, default=Fal
 parser.add_argument('-vgg_model', help='the path of pretrained vgg model', type=str,
                     default='model_saved/vgg_16.ckpt')
 parser.add_argument('-transfer_model', help='the path of transfer net model', type=str,
-                    default='model_save/wave8.ckpt')
+                    default='model_saved/wave8.ckpt')
 parser.add_argument('-train_data_path', help='the path of train data', type=str,
                     default='img')
 parser.add_argument('-style_data_path', help='the path of style image', type=str, default=os.getcwd() + '/img/star.jpg')
