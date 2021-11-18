@@ -171,11 +171,11 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('-is_training', help='train or test', type=bool, default=False)
 parser.add_argument('-vgg_model', help='the path of pretrained vgg model', type=str,
-                    default='/home/liu/Tensorflow-Project/temp/model/vgg_16.ckpt')
+                    default='model_saved/vgg_16.ckpt')
 parser.add_argument('-transfer_model', help='the path of transfer net model', type=str,
-                    default='/home/liu/Tensorflow-Project/style-transfer/model_save/wave8.ckpt')
+                    default='model_saved/wave8.ckpt')
 parser.add_argument('-train_data_path', help='the path of train data', type=str,
-                    default='/home/liu/Downloads/train2014')
+                    default='img')
 parser.add_argument('-style_data_path', help='the path of style image', type=str, default=os.getcwd() + '/img/star.jpg')
 parser.add_argument('-test_data_path', help='the path of style image', type=str, default='test.jpg')
 parser.add_argument('-new_img_name', help='the path of style image', type=str, default='transfer.jpg')
