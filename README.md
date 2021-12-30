@@ -1,5 +1,5 @@
 # style_transfer-perceptual_loss
-This a funny demo of style transfer of paper ：[Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155)
+This is a funny demo of style transfer of paper ：[Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155)
 
 the detail information about this code is in my CSDN [blog](http://blog.csdn.net/qq_25737169/article/details/79192211)
 
